@@ -14,7 +14,6 @@
   *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
   html,body{width:100%;min-height:100%;background:#0d0d28;color:#fff;font-family:'Inter',system-ui,-apple-system,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden}
   a{color:inherit;text-decoration:none}
-
   .bg{
     position:fixed;inset:0;z-index:0;pointer-events:none;
     background-color:#0d0d28;
@@ -32,14 +31,11 @@
     z-index:0;
     transform:rotate(-35deg);
   }
-
   .wrap{position:relative;z-index:1;max-width:480px;margin:0 auto;padding:44px 22px 80px}
-
   .hero{text-align:center;margin-bottom:28px;display:flex;flex-direction:column;align-items:center}
   .hero-coin{width:80px;height:80px;object-fit:contain;filter:drop-shadow(0 0 18px rgba(212,175,55,0.3));margin-bottom:6px}
   .hero-soap{height:48px;width:auto;object-fit:contain;filter:drop-shadow(0 4px 12px rgba(0,0,0,0.4));margin-bottom:4px}
   .hero-sub{font-family:'Barlow Condensed',sans-serif;font-size:15px;font-weight:700;letter-spacing:3px;color:#aaa;text-transform:uppercase;margin-bottom:0}
-
   .video-frame{
     margin:28px auto 32px;max-width:100%;width:100%;
     aspect-ratio:1080/1920;
@@ -52,7 +48,6 @@
     transition:transform .25s ease,border-color .25s ease;
   }
   .video-frame:hover{transform:translateY(-2px);border-color:rgba(212,175,55,0.55)}
-
   .card{
     background:#171736;
     border:1px solid rgba(212,175,55,0.35);
@@ -61,20 +56,17 @@
     margin-bottom:18px;
     box-shadow:0 12px 40px rgba(0,0,0,0.35);
   }
-
   .card-kicker{
     font-family:'Barlow Condensed',sans-serif;
     font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;
     color:#eac645;margin-bottom:6px;
   }
   .card-kicker.discord{color:#a5b4fc}
-
   .card-title{
     font-family:'Barlow Condensed',sans-serif;
     font-size:26px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase;
     color:#fff;margin-bottom:12px;display:flex;align-items:center;gap:10px;
   }
-
   .feature-group{margin-bottom:16px}
   .feature-group-title{
     font-family:'Barlow Condensed',sans-serif;
@@ -84,7 +76,6 @@
     padding-bottom:6px;
     border-bottom:1px solid rgba(255,255,255,0.06);
   }
-
   ul.features{list-style:none;padding:0;margin:0}
   ul.features li{
     display:flex;align-items:flex-start;gap:10px;
@@ -94,7 +85,6 @@
   ul.features li .emoji{flex-shrink:0;font-size:16px;line-height:1.4;width:22px;text-align:center}
   ul.features li .text{flex:1}
   ul.features li .text b{color:#fff;font-weight:600}
-
   .cta{
     display:flex;align-items:center;justify-content:center;gap:10px;
     width:100%;margin-top:14px;
@@ -127,7 +117,6 @@
     border-radius:6px;font-size:12px;letter-spacing:0.5px;
     background:rgba(0,0,0,0.22);
   }
-
   .footer{
     text-align:center;margin-top:28px;
     font-size:13px;letter-spacing:1px;color:rgba(255,255,255,0.5);
@@ -135,7 +124,6 @@
   }
   .footer a{color:#D4AF37;text-decoration:none;font-weight:700;letter-spacing:1.2px}
   .footer a:hover{text-decoration:underline}
-
   @media (max-width:520px){
     .wrap{padding:28px 16px 60px}
     .hero-title{font-size:30px;letter-spacing:4px}
@@ -148,27 +136,22 @@
 </style>
 </head>
 <body>
-
 <div class="bg"></div>
-
 <div class="wrap">
-
   <header class="hero">
-    <img class="hero-coin" src="/pros/Pros-Generic_NoBackground.png" alt="Passport Pro">
-    <img class="hero-soap" src="/pros/Website_Logo_Words copy.png" alt="Passport Pro">
+    <img class="hero-coin" src="Pros-Generic_NoBackground.png" alt="Passport Pro">
+    <img class="hero-soap" src="Website_Logo_Words.png" alt="Passport Pro">
     <div class="hero-sub">World Map</div>
   </header>
-
   <div class="video-frame">
     <video
-      src="MapTutorial_web.mp4"
+      src="MapTutorial_Web.mp4"
       controls
       playsinline
       preload="metadata"
       style="width:100%;height:100%;object-fit:cover;border-radius:15px"
     ></video>
   </div>
-
   <!-- Map Access Card -->
   <section class="card">
     <h2 class="card-title">🗺️ Map Access</h2>
@@ -186,7 +169,6 @@
       </div>
     </div>
     <div style="font-size:13px;color:#888;margin-bottom:18px">Cancel anytime. Instant access after payment.</div>
-
     <ul class="features">
       <li><span class="emoji">⭐</span><span class="text"><b>Full access to Passport Pro Recommended places</b> worldwide</span></li>
       <li><span class="emoji">📖</span><span class="text"><b>Perfect companion to the Passport Pro Travel Guides</b></span></li>
@@ -196,17 +178,14 @@
       <li><span class="emoji">🗺️</span><span class="text"><b>Interactive world map</b> with pan, zoom &amp; clustering</span></li>
       <li><span class="emoji">🔐</span><span class="text"><b>Google sign-in</b> — no Discord account needed</span></li>
     </ul>
-
     <a class="cta cta-gold" href="https://passport-pro-map.web.app/subscribe" target="_blank" rel="noopener noreferrer">
       Get Map Access — $9.99/mo
     </a>
   </section>
-
   <!-- Elite / Discord Members Card -->
   <section class="card">
     <div class="card-kicker discord">Discord Members</div>
     <h2 class="card-title"><svg width="28" height="28" viewBox="0 0 71 55" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0"><path d="M60.1045 4.8978C55.5792 2.8214 50.7265 1.2916 45.6527 0.41542C45.5603 0.39851 45.468 0.44077 45.4204 0.52529C44.7963 1.6353 44.105 3.0834 43.6209 4.2216C38.1637 3.4046 32.7345 3.4046 27.3892 4.2216C26.905 3.0581 26.1886 1.6353 25.5617 0.52529C25.5141 0.44359 25.4218 0.40133 25.3294 0.41542C20.2584 1.2888 15.4057 2.8186 10.8776 4.8978C10.8384 4.9147 10.8048 4.9429 10.7825 4.9795C1.57795 18.7309-0.943561 32.1443 0.293408 45.3914C0.299005 45.4562 0.335386 45.5182 0.385761 45.5576C6.45866 50.0174 12.3413 52.7249 18.1147 54.5195C18.2071 54.5477 18.305 54.5139 18.3638 54.4378C19.7295 52.5728 20.9469 50.6063 21.9907 48.5383C22.0523 48.4172 21.9935 48.2735 21.8676 48.2256C19.9366 47.4931 18.0979 46.6 16.3292 45.5858C16.1893 45.5041 16.1781 45.304 16.3068 45.2082C16.679 44.9293 17.0513 44.6391 17.4067 44.3461C17.471 44.2926 17.5606 44.2813 17.6362 44.3151C29.2558 49.6202 41.8354 49.6202 53.3179 44.3151C53.3935 44.2785 53.4831 44.2898 53.5502 44.3433C53.9057 44.6363 54.2779 44.9293 54.6529 45.2082C54.7816 45.304 54.7732 45.5041 54.6333 45.5858C52.8646 46.6197 51.0259 47.4931 49.0921 48.2228C48.9662 48.2707 48.9102 48.4172 48.9718 48.5383C50.038 50.6034 51.2554 52.5699 52.5959 54.435C52.6519 54.5139 52.7526 54.5477 52.845 54.5195C58.6464 52.7249 64.529 50.0174 70.6019 45.5576C70.6551 45.5182 70.6887 45.459 70.6943 45.3942C72.1747 30.0791 68.2147 16.7757 60.1968 4.9823C60.1772 4.9429 60.1437 4.9147 60.1045 4.8978ZM23.7259 37.3253C20.2276 37.3253 17.3451 34.1136 17.3451 30.1693C17.3451 26.225 20.1717 23.0133 23.7259 23.0133C27.308 23.0133 30.1626 26.2532 30.1066 30.1693C30.1066 34.1136 27.28 37.3253 23.7259 37.3253ZM47.3178 37.3253C43.8196 37.3253 40.9371 34.1136 40.9371 30.1693C40.9371 26.225 43.7636 23.0133 47.3178 23.0133C50.9 23.0133 53.7545 26.2532 53.6986 30.1693C53.6986 34.1136 50.9 37.3253 47.3178 37.3253Z" fill="#5865F2"/></svg> Member Login</h2>
-
     <ul class="features">
       <li><span class="emoji">💬</span><span class="text"><b>Message members</b> on the map</span></li>
       <li><span class="emoji">🤝</span><span class="text"><b>Squad Up</b> to meet members nearby</span></li>
@@ -214,25 +193,20 @@
       <li><span class="emoji">✍️</span><span class="text"><b>Write reviews</b> on places</span></li>
       <li><span class="emoji">🗺️</span><span class="text"><b>See members' recommended places</b> on the map</span></li>
     </ul>
-
     <div class="feature-group-title">Plus Exclusive Unlocks</div>
     <ul class="features">
       <li><span class="emoji">🎩</span><span class="text"><b>Personal trip concierge access to Pierre</b> — direct line to the owner</span></li>
       <li><span class="emoji">✈️</span><span class="text"><b>Priority access on group trips</b></span></li>
       <li><span class="emoji">🔞</span><span class="text"><b>Access to the Private Telegram</b> nobody talks about</span></li>
     </ul>
-
     <a class="cta cta-discord" href="https://whop.com/passport-pro/" target="_blank" rel="noopener noreferrer">
       <svg width="22" height="22" viewBox="0 0 71 55" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0"><path d="M60.1045 4.8978C55.5792 2.8214 50.7265 1.2916 45.6527 0.41542C45.5603 0.39851 45.468 0.44077 45.4204 0.52529C44.7963 1.6353 44.105 3.0834 43.6209 4.2216C38.1637 3.4046 32.7345 3.4046 27.3892 4.2216C26.905 3.0581 26.1886 1.6353 25.5617 0.52529C25.5141 0.44359 25.4218 0.40133 25.3294 0.41542C20.2584 1.2888 15.4057 2.8186 10.8776 4.8978C10.8384 4.9147 10.8048 4.9429 10.7825 4.9795C1.57795 18.7309-0.943561 32.1443 0.293408 45.3914C0.299005 45.4562 0.335386 45.5182 0.385761 45.5576C6.45866 50.0174 12.3413 52.7249 18.1147 54.5195C18.2071 54.5477 18.305 54.5139 18.3638 54.4378C19.7295 52.5728 20.9469 50.6063 21.9907 48.5383C22.0523 48.4172 21.9935 48.2735 21.8676 48.2256C19.9366 47.4931 18.0979 46.6 16.3292 45.5858C16.1893 45.5041 16.1781 45.304 16.3068 45.2082C16.679 44.9293 17.0513 44.6391 17.4067 44.3461C17.471 44.2926 17.5606 44.2813 17.6362 44.3151C29.2558 49.6202 41.8354 49.6202 53.3179 44.3151C53.3935 44.2785 53.4831 44.2898 53.5502 44.3433C53.9057 44.6363 54.2779 44.9293 54.6529 45.2082C54.7816 45.304 54.7732 45.5041 54.6333 45.5858C52.8646 46.6197 51.0259 47.4931 49.0921 48.2228C48.9662 48.2707 48.9102 48.4172 48.9718 48.5383C50.038 50.6034 51.2554 52.5699 52.5959 54.435C52.6519 54.5139 52.7526 54.5477 52.845 54.5195C58.6464 52.7249 64.529 50.0174 70.6019 45.5576C70.6551 45.5182 70.6887 45.459 70.6943 45.3942C72.1747 30.0791 68.2147 16.7757 60.1968 4.9823C60.1772 4.9429 60.1437 4.9147 60.1045 4.8978ZM23.7259 37.3253C20.2276 37.3253 17.3451 34.1136 17.3451 30.1693C17.3451 26.225 20.1717 23.0133 23.7259 23.0133C27.308 23.0133 30.1626 26.2532 30.1066 30.1693C30.1066 34.1136 27.28 37.3253 23.7259 37.3253ZM47.3178 37.3253C43.8196 37.3253 40.9371 34.1136 40.9371 30.1693C40.9371 26.225 43.7636 23.0133 47.3178 23.0133C50.9 23.0133 53.7545 26.2532 53.6986 30.1693C53.6986 34.1136 50.9 37.3253 47.3178 37.3253Z" fill="currentColor"/></svg>
       Access the Discord
     </a>
   </section>
-
   <div class="footer">
     &copy; Passport Pro — <a href="https://discord.com/oauth2/authorize?client_id=1488770301129916577&redirect_uri=https%3A%2F%2Fus-central1-passport-pro-map.cloudfunctions.net%2FdiscordCallback&response_type=code&scope=identify+guilds+guilds.members.read&prompt=consent">Already a member? Sign in</a>
   </div>
-
 </div>
-
 </body>
 </html>
